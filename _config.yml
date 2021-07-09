@@ -14,7 +14,7 @@ ga: UA-XXXXX-Y
 github: [metadata]
 
 # Enable for live hosting on GitHub Pages
-baseurl: /uswds-theme-toolkit
+baseurl: /ui-doc-demo
 
 # Remove generation of additional style.css
 theme: null
