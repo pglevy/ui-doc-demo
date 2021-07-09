@@ -1,8 +1,8 @@
 # Set a plain language title for the site.
-title: USWDS Boilerplate
+title: USWDS Theme Toolkit
 
 # Write a short description for the site. This is used for "meta description."
-description: A starting point for publishing a site using Jekyll, GitHub Pages, and a hosted version of the U.S. Web Design System
+description: An experiment with documenting UI themes for USWDS sites
 
 # Set the language for the site. Used for "html lang." Default is English.
 lang: en
@@ -14,7 +14,7 @@ ga: UA-XXXXX-Y
 github: [metadata]
 
 # Enable for live hosting on GitHub Pages
-baseurl: /uswds-boilerplate
+baseurl: /uswds-theme-toolkit
 
 # Remove generation of additional style.css
 theme: null
