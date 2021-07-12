@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: button
 title: Button
 label: This is how we do it
 tokens:

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: input
 title: Input
 placeholder: This is how we do it
 tokens:

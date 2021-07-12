@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: typography
 title: Typography
 h1-label: "H1: This is a heading 1"
 h2-label: "H2: This is a heading 2"

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: card
 title: Card
 content-heading: This is how we do it
 content-body: "A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. This summary can contain a variety of content types, such as text, images and multimedia, or buttons and links."
