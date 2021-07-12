@@ -1,14 +1,7 @@
 ---
 layout: button
-title: Button
+title: Buttons
 label: This is how we do it
-tokens:
-    - usa-button
-    - padding-4
-    - bg-accent-warm-dark
-    - hover:bg-accent-warm-darker
-    - text-normal
-    - radius-0
 ---
 # {{ page.title }}
 

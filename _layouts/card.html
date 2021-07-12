@@ -1,17 +1,28 @@
-<ul class="usa-card-group">
-  <li class="tablet:grid-col-4 usa-card">
-    <div class="usa-card__container{% for token in site.data.tokens.card %} {{ token }}{% endfor %}">
-      <header class="usa-card__header">
-        <h2 class="usa-card__heading">{{ page.content-heading }}</h2>
-      </header>
-      <div class="usa-card__body">
-        <p>
-          {{ page.content-body}}
-        </p>
+<!doctype html>
+{% include head.html %}
+  {{ content }}
+  <ul class="usa-card-group">
+    <li class="tablet:grid-col-4 usa-card">
+      <div class="usa-card__container{% for token in site.data.tokens.card %} {{ token }}{% endfor %}">
+        <header class="usa-card__header">
+          <h2 class="usa-card__heading">{{ page.content-heading }}</h2>
+        </header>
+        <div class="usa-card__body">
+          <p>
+            {{ page.content-body}}
+          </p>
+        </div>
+        <div class="usa-card__footer">
+          <button class="usa-button{% for token in site.data.tokens.button %} {{ token }}{% endfor %}">{{ page.content-button }}</button>
+        </div>
       </div>
-      <div class="usa-card__footer">
-        <button class="usa-button{% for token in site.data.tokens.button %} {{ token }}{% endfor %}">{{ page.content-button }}</button>
-      </div>
-    </div>
-  </li>
-</ul>
+    </li>
+  </ul>
+  <p>Tokens:</p>
+    <ul>
+        {% for token in site.data.tokens.card %}
+        <li>{{ token }}</li>
+        {% endfor %}
+    </ul>
+  {% include foot.html %}
+</html>

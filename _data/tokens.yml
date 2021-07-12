@@ -12,6 +12,14 @@ card:
     - padding-top-4
     - shadow-4
     - text-center
+input:
+    - usa-input
+    - padding-4
+    - border-1
+    - border-accent-warm
+    - radius-pill
+    - text-bold
+    - text-uppercase
 h1:
     - text-normal
     - font-lang-13 (doesn't work)
