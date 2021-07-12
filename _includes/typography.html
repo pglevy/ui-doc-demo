@@ -1,0 +1,27 @@
+
+<h1 class="{% for token in site.data.tokens.h1 %} {{ token }}{% endfor %}">{{ page.h1-label }}</h1>
+
+<p>Tokens:</p>
+<ul>
+    {% for token in site.data.tokens.h1 %}
+    <li>{{ token }}</li>
+    {% endfor %}
+</ul>
+
+<h2 class="{% for token in site.data.tokens.h2 %} {{ token }}{% endfor %}">{{ page.h2-label }}</h2>
+
+<p>Tokens:</p>
+<ul>
+    {% for token in site.data.tokens.h2 %}
+    <li>{{ token }}</li>
+    {% endfor %}
+</ul>
+
+<p class="{% for token in site.data.tokens.paragraph %} {{ token }}{% endfor %}">{{ page.paragraph }}</p>
+
+<p>Tokens:</p>
+<ul>
+    {% for token in site.data.tokens.paragraph %}
+    <li>{{ token }}</li>
+    {% endfor %}
+</ul>
