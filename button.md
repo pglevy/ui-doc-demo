@@ -3,6 +3,7 @@ layout: button
 title: Buttons
 label: This is how we do it
 bixal-label: Button outline
+al-label: Button
 ---
 # {{ page.title }}
 

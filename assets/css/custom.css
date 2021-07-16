@@ -9,3 +9,11 @@
 .font-sans-lg {
   font-size: 1.25rem;
 }
+
+.al-bg-primary {
+  background-color: #518325;
+}
+
+.hover\:bg-secondary:hover {
+  background-color: #749C51;
+}

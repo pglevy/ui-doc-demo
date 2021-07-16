@@ -20,6 +20,15 @@ bixal-button:
     - font-family-sans-serif
     - font-sans-sm
     - text-ls-1
+al-button-primary:
+    - usa-button
+    - radius-0
+    - text-white
+    - font-sans-sm
+    - al-bg-primary
+    - hover:bg-secondary
+    - hover:text-ink
+    - text-normal
 card:
     - border-1
     - border-accent-warm
