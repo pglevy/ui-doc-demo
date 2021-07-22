@@ -56,3 +56,18 @@ h2:
 paragraph:
     - font-family-sans-serif
     - font-sans-lg
+tab-button:
+    - usa-button
+    - text-uppercase
+    - text-bold
+    - text-ink
+    - hover:text-ink
+    - border-bottom-05
+    - hover:border-bottom-05
+    - bg-white
+    - hover:bg-white
+    - border-green
+    - hover:border-mint
+    - padding-x-2
+    - padding-y-1
+    - radius-0
